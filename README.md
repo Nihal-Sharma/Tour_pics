@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+Travel Journal App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a travel journal app, which logs your travel photos with date and location for maintaining a entire collection for your travel photos.
 
-## Get started
 
-1. Install dependencies
+📸 Screenshots
 
-   ```bash
-   npm install
-   ```
+![WhatsApp Image 2025-07-16 at 14 52 23_dcd9f988](https://github.com/user-attachments/assets/2ca1d302-210b-4d13-946e-dcad251697d3)
 
-2. Start the app
+![WhatsApp Image 2025-07-16 at 14 52 29_9bd14160](https://github.com/user-attachments/assets/b5c2d951-ed0c-41aa-b526-2d42fe678eae)
 
-   ```bash
-   npx expo start
-   ```
+![WhatsApp Image 2025-07-16 at 14 52 31_5b0e8778](https://github.com/user-attachments/assets/65de32d6-01e7-4f10-a683-67f49f60aa79)
 
-In the output, you'll find options to open the app in a
+![WhatsApp Image 2025-07-16 at 14 52 21_c1dd26cd](https://github.com/user-attachments/assets/0cf74053-a1d9-45c9-adbb-dc60c0ec6c7f)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+✨ Purpose of the App
 
-When you're ready, run:
+This app helps travelers effortlessly document their journeys by logging travel photos along with the exact date and location where each was taken. Designed for explorers, backpackers, tourists, and adventure lovers, the app serves as a digital travel journal — creating a personalized timeline of memories across cities, countries, and experiences.
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Instead of having scattered images in phone galleries or cloud drives, users can now organize their travel photos in one cohesive, location-aware collection. What inspired this app was the need for a simple yet powerful way to preserve travel stories — not just visually, but contextually — with time, place, and emotion captured in every post.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🛠 Tech Stack
 
-## Join the community
+React Native 
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+🤝 Collaborators
+
+NIHAL SHARMA - https://github.com/Nihal-Sharma - nihalsharma1209@gmail.com
+
+
+TANISHQA DWIVEDI - https://github.com/tanishqa107 - tanishqadwivedi7@gmail.com
+
+
+ABHISHEK PATIDAR - https://github.com/AbhishekPati332 - abhishekpatidar332@gmail.com
+
+
+📚 What We Learned
+
+How to break down a travel-focused mobile application into modular components like image upload, location fetch, and trip listing using React Native.
+
+Working collaboratively using Git and GitHub for version control, branching, and merging in a team environment.
+
+Integrating frontend functionality (image selection, location tracking) with logical state management and dynamic rendering using FlatList.
+
+Handling form validations, and displaying user-friendly error messages for camera/location permission issues.
+
+Using and configuring Expo libraries like expo-image-picker and expo-location, and understanding their permission flows and async behavior.
+
+Gained hands-on experience with Expo development workflow, hot reloading, and testing across devices.
+
+Learned the importance of clean UI design and responsiveness in mobile apps for a seamless user experience.
+
+
+🚧 Installation & Running Locally
+
+Follow these steps to set up and run the Travel Journal App locally:
+git clone https://github.com/yourusername/travel-journal-app.git
+cd travel-journal-app
+npm install
+npx expo start
+Open the Expo Go app on your mobile device and scan the QR code to run the app.
