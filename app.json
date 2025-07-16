@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Travel_Pics",
+    "name": "Travel Pics",
     "slug": "Travel_Pics",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.nihalsharma.Travel_Pics"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3821940b-35b8-4867-96ad-9b6473bc3932"
+      }
     }
   }
 }
